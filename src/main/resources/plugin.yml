@@ -1,0 +1,7 @@
+name: comebackKits
+version: 1.0
+main: com.senin.comebackkits.ComebackKits
+api-version: '1.21'
+commands:
+  kit:
+    description: Kit al
