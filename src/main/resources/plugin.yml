@@ -4,4 +4,14 @@ main: com.senin.comebackkits.ComebackKits
 api-version: '1.21'
 commands:
   kit:
-    description: Kit al
+    description: Kit menüsünü açar
+    usage: /kit
+  rutbever:
+    description: Oyuncuya rütbe verir (VIP, VIP+, MVIP, WVIP)
+    usage: /rutbever <rütbe> <oyuncu>
+    permission: comebackkits.admin
+    aliases: [rütbever]
+permissions:
+  comebackkits.admin:
+    description: Rütbe verme yetkisi
+    default: op
